@@ -1,8 +1,0 @@
-[hyprland]
-cursor_theme = "Bibata-Modern-Ice"
-cursor_size = 24
-font = "Noto Sans"
-font_size = 12
-monospace_font_size = 10
-quickapps = "ghostty"
-terminal = "ghostty"
