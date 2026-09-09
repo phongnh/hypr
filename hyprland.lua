@@ -68,6 +68,7 @@ hl.monitor({
 -- Autostart
 hl.on("hyprland.start", function()
 	-- hl.exec_cmd("hyprctl setcursor Bibata-Modern-Ice 24")
+	-- hl.exec_cmd("hyprctl setcursor " .. hyde.config.ui.cursor_theme .. " " .. hyde.config.ui.cursor_size)
 end)
 
 -- HyDE
