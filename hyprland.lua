@@ -68,7 +68,7 @@ hl.monitor({
 -- Autostart
 hl.on("hyprland.start", function()
 	-- hl.exec_cmd("hyprctl setcursor Bibata-Modern-Ice 24")
-	-- hl.exec_cmd("hyprctl setcursor " .. hyde.config.ui.cursor_theme .. " " .. hyde.config.ui.cursor_size)
+	hl.exec_cmd("hyprctl setcursor " .. hyde.config.ui.cursor_theme .. " " .. hyde.config.ui.cursor_size)
 	-- IBus
 	hl.exec_cmd("ibus start --type wayland")
 end)
